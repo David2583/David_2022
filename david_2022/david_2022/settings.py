@@ -54,7 +54,7 @@ ROOT_URLCONF = 'david_2022.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['david_2022/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
